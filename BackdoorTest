@@ -469,8 +469,6 @@ btns.execBtn.MouseButton1Click:Connect(function()
         -- store game
         games.loadGame(game.PlaceId, encodeBackdoors({backdoor}));
         config.save();
-        -- log game
-        logGame();
         firstExecution = false;
     end;
     -- execute
